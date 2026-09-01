@@ -1,25 +1,25 @@
-# Amazon Prime TV Shows & Movies — EDA
+# Amazon Prime TV Shows & Movies — EDA & Power BI Dashboard
 
-Exploratory Data Analysis and Power BI dashboard project analyzing Amazon Prime content data to identify trends across content types, genres, ratings, and release years.
+Exploratory Data Analysis and interactive Power BI dashboard project analyzing **124,347 Amazon Prime records across 19 features** to identify trends in content, genres, ratings, and release years.
 
 ## Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on an Amazon Prime dataset containing **124,347 records across 19 features**.
+This project combines Python-based Exploratory Data Analysis with an interactive Power BI dashboard to analyze Amazon Prime TV shows and movies.
 
-The analysis focuses on understanding the distribution and characteristics of Amazon Prime TV shows and movies using Python-based data analysis and visualization.
+The analysis focuses on understanding content distribution, genres, ratings, release years, and other characteristics of the available content data.
 
 ## Objectives
 
-- Analyze the distribution of TV shows and movies
-- Explore content trends across genres
+- Analyze the distribution of movies and TV shows
+- Explore content across different genres
 - Analyze rating distributions
 - Examine release-year trends
 - Identify patterns in the available content data
-- Create an interactive Power BI dashboard for visual analysis
+- Build an interactive Power BI dashboard for visual analysis
 
 ## Dataset
 
-The dataset contains **124,347 records and 19 features** related to Amazon Prime content.
+The dataset contains **124,347 records across 19 features** related to Amazon Prime content.
 
 Key information includes:
 
@@ -35,51 +35,60 @@ Key information includes:
 - Cast
 - Description
 
+## Data Cleaning & Preprocessing
+
+The dataset was prepared for analysis using Python.
+
+The preprocessing workflow included:
+
+- Data cleaning
+- Handling missing values
+- Examining data types
+- Removing unnecessary information
+- Preparing data for Exploratory Data Analysis
+- Preparing the dataset for Power BI visualization
+
 ## Exploratory Data Analysis
 
-The project includes:
+The project performs EDA using Python to explore:
 
-- Data cleaning and preprocessing
-- Handling and examining missing values
-- Statistical analysis
-- Content distribution analysis
-- Genre analysis
-- Rating analysis
-- Release-year analysis
-- Data visualization
+- Content type distribution
+- Genre distribution
+- Rating patterns
+- Release-year trends
+- Content characteristics
+- Distribution of movies and TV shows
 
-## Technologies Used
+### Visualizations
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Power BI
-- DAX
+The analysis uses charts and plots to identify patterns and trends in the Amazon Prime content dataset.
 
 ## Power BI Dashboard
 
-An interactive Power BI dashboard was created to explore Amazon Prime content using:
+An interactive Power BI dashboard was created to provide a visual overview of the Amazon Prime content dataset.
 
-- KPI cards
-- Content distribution visuals
-- Genre analysis
-- Rating analysis
+The dashboard enables users to explore:
+
+- Content distribution
+- Movies vs. TV Shows
+- Genre trends
+- Rating distribution
 - Release-year trends
-- Interactive filtering
+- Key content metrics
+
+Interactive filters and visualizations allow users to explore the dataset dynamically.
 
 ## Project Workflow
 
 ```text
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
+Amazon Prime Dataset
+        ↓
+Data Cleaning & Preprocessing
+        ↓
 Exploratory Data Analysis
-     ↓
+        ↓
 Data Visualization
-     ↓
-Feature Analysis
-     ↓
+        ↓
 Power BI Dashboard
+        ↓
+Interactive Analysis
